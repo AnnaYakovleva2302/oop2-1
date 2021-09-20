@@ -7,6 +7,7 @@ public class Content {
     private String imageUrl;
     private String description;
     private String fullUrl;
+    private boolean canEdit;
 
     public int getId() {
         return id;
@@ -54,5 +55,13 @@ public class Content {
 
     public void setFullUrl(String fullUrl) {
         this.fullUrl = fullUrl;
+    }
+
+    public boolean getCanEdit() {
+        return canEdit;
+    }
+
+    public void setCanEdit(boolean canEdit) {
+        this.canEdit = canEdit;
     }
 }
